@@ -12,7 +12,7 @@ namespace Pluralsight.Todo.Repositories
         private CloudTable todoTable = null;
         public TodoRepository()
         {
-            CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=cozpluralsight;AccountKey=jaMt/CHixKsNz8Gj8hd5z5LMzkPxuwJa02GtGWr1sWHgjvyBTLqOW6RsmjEwgkd3D9dbJToahKKiBDf4OFADFA==;TableEndpoint=https://cozpluralsight.table.cosmosdb.azure.com:443");
+            CloudStorageAccount storageAccount = CloudStorageAccount.Parse("");
 
             var tableClient = storageAccount.CreateCloudTableClient();
 
